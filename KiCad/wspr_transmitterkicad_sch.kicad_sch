@@ -2161,12 +2161,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_WSPR"
-			(at 78.74 20.32 0)
+		(property "Value" "+3V3_WSPR"
+			(at 81.28 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2550,12 +2551,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_WSPR"
-			(at 152.4 22.86 0)
+		(property "Value" "+3V3_WSPR"
+			(at 154.94 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3066,12 +3068,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 39.37 20.32 0)
+		(property "Value" "+3V3"
+			(at 41.91 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

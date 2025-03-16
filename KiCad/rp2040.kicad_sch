@@ -5607,7 +5607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q16JVSS"
+		(property "Value" "W25Q16JVUXIQ"
 			(at 67.31 95.2499 0)
 			(effects
 				(font
@@ -5616,7 +5616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -5634,7 +5634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
+		(property "Description" "16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V"
 			(at 55.88 93.98 0)
 			(effects
 				(font
