@@ -1200,6 +1200,16 @@
 		)
 		(uuid "05a25c3f-5cf8-4c8b-bc98-92af4e549d8c")
 	)
+	(text "V_BAT_3V3 can feed (weakly) VBAT of the GNSS receiver\nthrough a 10k resistor. The current draw of VBAT is \nspecified to be 10 microamps (typ) so even a 1V drop\nfrom the 3.3V battery rail is sufficient to keep the\nGPS srams powered. "
+		(exclude_from_sim no)
+		(at 134.366 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b64730c-ee25-475b-a1c7-03e845036406")
+	)
 	(junction
 		(at 39.37 76.2)
 		(diameter 0)
@@ -1231,13 +1241,19 @@
 		(uuid "a7bada5c-6c6d-4e48-b877-798d1de4a6bf")
 	)
 	(junction
-		(at 115.57 87.63)
+		(at 134.62 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b38e89b7-b5b0-42cc-996e-52a0fcfc4348")
 	)
 	(junction
-		(at 115.57 72.39)
+		(at 101.6 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcd341ff-ca8d-47f3-ba80-2713f8ce603f")
+	)
+	(junction
+		(at 134.62 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c057b11d-ecc1-435e-b0de-a6d0695a257f")
@@ -1270,13 +1286,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 78.74) (xy 81.28 78.74)
+			(xy 77.47 78.74) (xy 101.6 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "054da428-8082-4b1f-88ed-a5c09135e454")
+	)
+	(wire
+		(pts
+			(xy 101.6 74.93) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0657f32c-3243-4149-aec9-96a5adb9500b")
 	)
 	(wire
 		(pts
@@ -1290,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 118.11 87.63)
+			(xy 137.16 83.82) (xy 137.16 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1356,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 113.03 77.47)
+			(xy 132.08 73.66) (xy 132.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 72.39) (xy 118.11 72.39)
+			(xy 134.62 73.66) (xy 137.16 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1396,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 113.03 87.63)
+			(xy 134.62 88.9) (xy 132.08 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1407,6 +1433,16 @@
 			(type default)
 		)
 		(uuid "691df3d0-a62b-4353-a4ce-05369a6cee4b")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c44bc7d-8d5f-4b4d-96ba-b29328a470b6")
 	)
 	(wire
 		(pts
@@ -1510,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 115.57 87.63)
+			(xy 137.16 88.9) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 115.57 72.39)
+			(xy 132.08 73.66) (xy 134.62 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 72.39) (xy 118.11 77.47)
+			(xy 137.16 73.66) (xy 137.16 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +1676,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 113.03 87.63)
+			(xy 101.6 78.74) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4cced4-86c9-45f6-b444-db1bee85984c")
+	)
+	(wire
+		(pts
+			(xy 132.08 83.82) (xy 132.08 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +1726,7 @@
 	)
 	(hierarchical_label "GNSS_VBAT"
 		(shape input)
-		(at 81.28 78.74 0)
+		(at 106.68 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1722,7 +1768,7 @@
 		)
 		(uuid "a1680bdb-15ad-4510-9474-84be9027eac3")
 	)
-	(hierarchical_label "GNSS_3V3_EN#"
+	(hierarchical_label "3V3_GNSS_EN#"
 		(shape input)
 		(at 33.02 30.48 180)
 		(effects
@@ -1774,7 +1820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_GNSS"
+		(property "Value" "+3V3_GNSS"
 			(at 80.01 62.23 0)
 			(effects
 				(font
@@ -1840,7 +1886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_GNSS"
+		(property "Value" "+3V3_GNSS"
 			(at 81.28 29.21 0)
 			(effects
 				(font
@@ -1959,7 +2005,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 118.11 80.01 0)
+		(at 137.16 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1967,7 +2013,7 @@
 		(dnp no)
 		(uuid "353c1128-8ab4-4d48-b693-865756192cc1")
 		(property "Reference" "C29"
-			(at 120.396 77.47 0)
+			(at 139.446 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +2022,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 120.142 82.296 0)
+			(at 139.192 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +2031,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 118.11 80.01 0)
+			(at 137.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 80.01 0)
+			(at 137.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2049,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 118.11 80.01 0)
+			(at 137.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,8 +2073,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 101.6 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45e82d44-3f49-4b1b-ab99-62bbfd0620c5")
+		(property "Reference" "R32"
+			(at 104.14 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 104.14 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f24a63d-935f-4e91-85d8-22cd46e7de5b")
+		)
+		(pin "1"
+			(uuid "0258eb76-794b-40da-b074-313dbd460784")
+		)
+		(instances
+			(project "JetBoard"
+				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/e040cb25-b3fd-4690-93cf-8fdaec7d4bd3"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 115.57 72.39 0)
+		(at 134.62 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2037,7 +2153,7 @@
 		(fields_autoplaced yes)
 		(uuid "70c7e78a-a818-495b-91e7-65191077b49c")
 		(property "Reference" "#PWR062"
-			(at 115.57 76.2 0)
+			(at 134.62 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,8 +2161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_GNSS"
-			(at 115.57 67.31 0)
+		(property "Value" "+3V3_GNSS"
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +2170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 72.39 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 72.39 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 72.39 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2342,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 113.03 80.01 0)
+		(at 132.08 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2234,7 +2350,7 @@
 		(dnp no)
 		(uuid "91c2d91b-59a8-41ef-b3f8-760e47fc5874")
 		(property "Reference" "C28"
-			(at 108.204 77.47 0)
+			(at 127.254 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2359,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 108.458 82.55 0)
+			(at 127.508 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2368,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.03 80.01 0)
+			(at 132.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 80.01 0)
+			(at 132.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2386,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 113.03 80.01 0)
+			(at 132.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,6 +2565,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a56f300d-7cce-4663-8110-4a5f8c43ccb1")
+		(property "Reference" "#PWR072"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_BAT_3V3"
+			(at 101.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23291b3a-26cd-4761-8975-14e0176f2447")
+		)
+		(instances
+			(project "JetBoard"
+				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/e040cb25-b3fd-4690-93cf-8fdaec7d4bd3"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 95.25 0)
 		(unit 1)
@@ -2516,7 +2698,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 87.63 0)
+		(at 134.62 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2525,7 +2707,7 @@
 		(fields_autoplaced yes)
 		(uuid "e352b1cc-b69d-4da3-b35e-21c2e6baf87d")
 		(property "Reference" "#PWR063"
-			(at 115.57 93.98 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2716,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 92.71 0)
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 87.63 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +2733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 87.63 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2742,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 87.63 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 39.37 15.24 0)
 			(effects
 				(font

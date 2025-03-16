@@ -979,6 +979,12 @@
 		(uuid "01d7d840-f803-480a-a539-473025d3cd01")
 	)
 	(junction
+		(at 147.32 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01ecf1b7-912c-4497-8cce-29a3fb1df072")
+	)
+	(junction
 		(at 57.15 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1063,6 +1069,16 @@
 			(type default)
 		)
 		(uuid "17d9da78-43a8-4905-b503-eafb109f6d2d")
+	)
+	(wire
+		(pts
+			(xy 147.32 52.07) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1826ec83-ea33-4d91-9a12-5670bc16bce7")
 	)
 	(wire
 		(pts
@@ -1156,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 52.07) (xy 147.32 57.15)
+			(xy 147.32 50.8) (xy 147.32 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1449,6 +1465,72 @@
 			(project "JetBoard"
 				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/3a3d5b61-45b1-4ef1-a95a-f1f4d23f0d26"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 147.32 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1821f637-0308-48de-a0ec-a77aa2320d6c")
+		(property "Reference" "#PWR071"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_BAT_3V3"
+			(at 147.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5883c690-d638-4501-b692-1520be90aa05")
+		)
+		(instances
+			(project "JetBoard"
+				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/3a3d5b61-45b1-4ef1-a95a-f1f4d23f0d26"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1784,7 +1866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "USB_VBUS"
+		(property "Value" "V_SYS"
 			(at 57.15 45.72 0)
 			(effects
 				(font

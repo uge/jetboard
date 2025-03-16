@@ -3142,7 +3142,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "JetBoard:SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
+		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
 			(at 123.19 78.74 0)
 			(effects
 				(font
