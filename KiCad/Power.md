@@ -44,4 +44,6 @@ A small tactile switch allows the user to force the RP2040 to firmware load mode
 
 The AVDD supply to the ADC has limited filtering.
 
-#### 
+#### Crystal 
+
+The Pico board had a 12 MHz crystal which was qualified to -25 C. We'll use a similar crystal but find one specified to -40 C.

@@ -947,6 +947,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Solar_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SC"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Solar_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single solar cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solar cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Solar_Cell_0_1"
+				(polyline
+					(pts
+						(xy -2.032 3.048) (xy -2.032 2.286) (xy -2.794 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 2.286) (xy -3.556 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.032 1.778)
+					(end 2.032 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.3208 1.1938)
+					(end 1.27 0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.556) (xy -0.762 2.794) (xy -1.524 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.794) (xy -2.286 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.667) (xy 1.27 2.667)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Solar_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1450,26 +1675,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 114.3) (xy 25.4 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10cc46ef-24af-4c92-826b-e452836fd72f")
-	)
-	(wire
-		(pts
-			(xy 25.4 101.6) (xy 25.4 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aec415b-5327-41d2-aa98-2d92d33f7cf9")
-	)
-	(wire
-		(pts
 			(xy 95.25 96.52) (xy 104.14 96.52)
 		)
 		(stroke
@@ -1560,6 +1765,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 104.14) (xy 25.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4864c878-2ae1-4992-aa65-b6c092ca5997")
+	)
+	(wire
+		(pts
 			(xy 53.34 43.18) (xy 53.34 45.72)
 		)
 		(stroke
@@ -1630,6 +1845,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 91.44) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8331f314-d27b-4e60-91ea-aea6cfb428a0")
+	)
+	(wire
+		(pts
 			(xy 53.34 25.4) (xy 50.8 25.4)
 		)
 		(stroke
@@ -1680,6 +1905,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 96.52) (xy 25.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08db610-be68-45fd-8b5a-91a7f4d70eb0")
+	)
+	(wire
+		(pts
 			(xy 228.6 73.66) (xy 236.22 73.66)
 		)
 		(stroke
@@ -1700,6 +1935,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 114.3) (xy 25.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dcae60-8b3c-44e7-8d15-f88f5e1e06e4")
+	)
+	(wire
+		(pts
 			(xy 50.8 30.48) (xy 53.34 30.48)
 		)
 		(stroke
@@ -1707,16 +1952,6 @@
 			(type default)
 		)
 		(uuid "cc070a85-92bd-4e80-8b13-c225d0d714a0")
-	)
-	(wire
-		(pts
-			(xy 25.4 106.68) (xy 40.64 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e278ed-4daa-4508-b558-d66a2a24321b")
 	)
 	(wire
 		(pts
@@ -1869,6 +2104,76 @@
 		(uuid "e61e32bb-16c8-4f93-98e1-e90a0f1d0432")
 	)
 	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 25.4 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "039db2eb-cf82-4099-a875-1c843f771a05")
+		(property "Reference" "SC1"
+			(at 29.21 98.1709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Solar_Cell"
+			(at 29.21 100.7109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JetBoard:KXOB201K04TF"
+			(at 25.4 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single solar cell"
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42e15e1e-6ec5-4d22-87f7-00736e3ed9e3")
+		)
+		(pin "2"
+			(uuid "94dafde2-b10e-4276-9e57-b885040522ff")
+		)
+		(instances
+			(project ""
+				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d"
+					(reference "SC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 177.8 124.46 0)
 		(unit 1)
@@ -1929,74 +2234,6 @@
 			(project ""
 				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 25.4 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10dd583c-bbee-4fda-96b4-944bf7a3d81c")
-		(property "Reference" "TP1"
-			(at 27.94 98.2979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 27.94 99.5679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
-			(at 30.48 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 25.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdd82473-a9f5-49d5-982c-3a13076e070b")
-		)
-		(instances
-			(project ""
-				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2094,7 +2331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
 			(at 39.37 40.64 0)
 			(effects
 				(font
@@ -2176,6 +2413,74 @@
 			(project ""
 				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 25.4 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a2d6a8e-2448-4353-978d-616ee8e0d253")
+		(property "Reference" "SC2"
+			(at 29.21 108.3309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Solar_Cell"
+			(at 29.21 110.8709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JetBoard:KXOB201K04TF"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single solar cell"
+			(at 25.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b226c97-608b-4e08-82ce-30712bde4bc7")
+		)
+		(pin "2"
+			(uuid "4281c2fc-d607-44cd-80fc-0462aa190eca")
+		)
+		(instances
+			(project "JetBoard"
+				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d"
+					(reference "SC2")
 					(unit 1)
 				)
 			)
@@ -3242,74 +3547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 25.4 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3039694-1243-452b-9fe2-8fed3ed25039")
-		(property "Reference" "TP2"
-			(at 27.94 110.9979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 27.94 112.2679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
-			(at 30.48 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 25.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f73b8be6-67cf-4d71-b0bd-66566b8c02d9")
-		)
-		(instances
-			(project "JetBoard"
-				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 152.4 33.02 0)
 		(unit 1)
@@ -3817,7 +4054,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 101.6)
+		(at 43.18 86.36)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3833,7 +4070,7 @@
 		)
 		(uuid "5ac7dde9-f00e-4d29-a1a5-5587060f885f")
 		(property "Sheetname" "Solar Input"
-			(at 40.64 100.8884 0)
+			(at 43.18 85.6484 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3843,7 +4080,7 @@
 			)
 		)
 		(property "Sheetfile" "solar_input.kicad_sch"
-			(at 40.64 114.8846 0)
+			(at 43.18 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +4089,7 @@
 			)
 		)
 		(pin "V_SOLAR" input
-			(at 40.64 106.68 180)
+			(at 43.18 91.44 180)
 			(uuid "c16dfd01-f8d1-4f84-9d7b-76aa797f3610")
 			(effects
 				(font

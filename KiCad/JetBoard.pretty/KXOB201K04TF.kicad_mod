@@ -1,0 +1,119 @@
+(footprint "KXOB201K04TF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5c6f3915-45ae-4373-a073-c5382d140d55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KXOB201K04TF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a0d6764-5121-473a-822f-cdd3dfa4004e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45c76c98-aebb-4d0b-9c88-548c20a6d7cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fad9d15-f9e8-4d57-9f50-b514a1eea7ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -20.5 -11.5)
+		(end 21.5 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "546a43dc-e401-42ab-af9a-5278169cdaa5")
+	)
+	(fp_rect
+		(start -20.5 -11.5)
+		(end 21.5 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "e765995e-d46d-49a9-8d69-5c90786bf70c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e91433d-38b5-4168-9c7d-8e72f76b5633")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 20 0 180)
+		(size 4 14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "d661bc6a-2edc-4e39-8aa1-25861697fb76")
+	)
+	(pad "2" smd roundrect
+		(at -19 0 180)
+		(size 4 14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0438749f-7de0-47ff-abdc-456f2aff2ed1")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STEP/KXOB201K04TF.step"
+		(offset
+			(xyz 0.5 11.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
