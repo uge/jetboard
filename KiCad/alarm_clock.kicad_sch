@@ -972,6 +972,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CHANGE ME TO STM8L050\n"
+		(exclude_from_sim no)
+		(at 172.72 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b03ccebb-1594-4417-a692-f259581ce6a0")
+	)
 	(junction
 		(at 147.32 82.55)
 		(diameter 0)
@@ -1382,7 +1392,7 @@
 		)
 		(uuid "424786c2-46f8-4044-9af5-50ad096dcd54")
 	)
-	(hierarchical_label "3V3_DCDC_EN#"
+	(hierarchical_label "3V0_DCDC_EN#"
 		(shape output)
 		(at 160.02 69.85 0)
 		(effects
@@ -1489,7 +1499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_BAT_3V3"
+		(property "Value" "V_BAT_3V0"
 			(at 147.32 45.72 0)
 			(effects
 				(font
@@ -1707,7 +1717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM8S001J3M"
+		(property "Value" "STM8S050"
 			(at 149.4633 57.15 0)
 			(effects
 				(font
@@ -2001,7 +2011,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A0533PDBZ"
+		(property "Value" "TPS7A0530PDBZ"
 			(at 92.71 48.26 0)
 			(effects
 				(font

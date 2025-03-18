@@ -1838,7 +1838,7 @@
 		)
 		(uuid "44090584-1b0c-4ed2-827a-050f008d2a5d")
 	)
-	(hierarchical_label "3V3_WSPR_EN#"
+	(hierarchical_label "3V0_WSPR_EN#"
 		(shape input)
 		(at 33.02 39.37 180)
 		(effects
@@ -2161,7 +2161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_WSPR"
+		(property "Value" "+3V0_WSPR"
 			(at 81.28 24.1299 0)
 			(effects
 				(font
@@ -2551,7 +2551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_WSPR"
+		(property "Value" "+3V0_WSPR"
 			(at 154.94 26.6699 0)
 			(effects
 				(font
@@ -3068,7 +3068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 41.91 24.1299 0)
 			(effects
 				(font

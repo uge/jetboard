@@ -1200,7 +1200,7 @@
 		)
 		(uuid "05a25c3f-5cf8-4c8b-bc98-92af4e549d8c")
 	)
-	(text "V_BAT_3V3 can feed (weakly) VBAT of the GNSS receiver\nthrough a 10k resistor. The current draw of VBAT is \nspecified to be 10 microamps (typ) so even a 1V drop\nfrom the 3.3V battery rail is sufficient to keep the\nGPS srams powered. "
+	(text "V_BAT_3V0 can feed (weakly) VBAT of the GNSS receiver\nthrough a 10k resistor. The current draw of VBAT is \nspecified to be 10 microamps (typ) so even a 1V drop\nfrom the 3.3V battery rail is sufficient to keep the\nGPS srams powered. "
 		(exclude_from_sim no)
 		(at 134.366 54.61 0)
 		(effects
@@ -1768,7 +1768,7 @@
 		)
 		(uuid "a1680bdb-15ad-4510-9474-84be9027eac3")
 	)
-	(hierarchical_label "3V3_GNSS_EN#"
+	(hierarchical_label "3V0_GNSS_EN#"
 		(shape input)
 		(at 33.02 30.48 180)
 		(effects
@@ -1820,7 +1820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_GNSS"
+		(property "Value" "+3V0_GNSS"
 			(at 80.01 62.23 0)
 			(effects
 				(font
@@ -1886,7 +1886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_GNSS"
+		(property "Value" "+3V0_GNSS"
 			(at 81.28 29.21 0)
 			(effects
 				(font
@@ -2161,7 +2161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_GNSS"
+		(property "Value" "+3V0_GNSS"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -2583,7 +2583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+V_BAT_3V3"
+		(property "Value" "+V_BAT_3V0"
 			(at 101.6 62.23 0)
 			(effects
 				(font
@@ -2969,7 +2969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 39.37 15.24 0)
 			(effects
 				(font

@@ -1608,22 +1608,16 @@
 		)
 	)
 	(junction
-		(at 149.86 91.44)
+		(at 149.86 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48539b43-f43e-4e80-9ca8-3e8ff73347a7")
+		(uuid "4949c8c4-0647-4bd9-bf0d-f08fa31ae116")
 	)
 	(junction
 		(at 53.34 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58da905f-0b6e-4089-83a5-0e2bf8be284d")
-	)
-	(junction
-		(at 149.86 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c2a1754-2629-4333-b3a1-22a327665bb8")
 	)
 	(junction
 		(at 60.96 33.02)
@@ -1643,6 +1637,60 @@
 		(color 0 0 0 0)
 		(uuid "d1f6d15c-bc6a-4781-afa9-f054636d5f02")
 	)
+	(bus_entry
+		(at 139.7 137.16)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b05c427-72cc-4485-b0cb-cde554868121")
+	)
+	(bus_entry
+		(at 139.7 134.62)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33768b25-b5f7-4b49-b3c8-2c7e83954480")
+	)
+	(bus_entry
+		(at 139.7 132.08)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57d7fa2-ab25-4397-9007-beb768d2f91b")
+	)
+	(bus_entry
+		(at 162.56 96.52)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7723ff-af69-48cd-a9c1-6f03fbb00eee")
+	)
+	(bus_entry
+		(at 162.56 91.44)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befe012f-3eaa-4749-ad0e-b3bcfd5ee7cb")
+	)
+	(bus_entry
+		(at 162.56 93.98)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e2056b-7e10-4f0d-87a2-e2068a763fae")
+	)
 	(wire
 		(pts
 			(xy 60.96 30.48) (xy 58.42 30.48)
@@ -1652,6 +1700,16 @@
 			(type default)
 		)
 		(uuid "05a0087b-38a8-4fb4-bf6c-cef3bb984bc9")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e6b900-3412-45a9-9e9c-ec25a4528356")
 	)
 	(wire
 		(pts
@@ -1695,6 +1753,36 @@
 	)
 	(wire
 		(pts
+			(xy 127 147.32) (xy 144.78 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b1261c-26fb-4a45-ab95-09c2b5091ad2")
+	)
+	(wire
+		(pts
+			(xy 127 137.16) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26038b1b-347d-467d-a457-b3dad96844ba")
+	)
+	(wire
+		(pts
+			(xy 127 132.08) (xy 139.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a50d9cf-8830-4031-9cdd-ae4328ea1a4c")
+	)
+	(wire
+		(pts
 			(xy 236.22 109.22) (xy 228.6 109.22)
 		)
 		(stroke
@@ -1705,17 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 91.44) (xy 154.94 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37184048-aa7e-4bd8-a429-8a769eb94588")
-	)
-	(wire
-		(pts
-			(xy 124.46 34.29) (xy 133.35 34.29)
+			(xy 124.46 33.02) (xy 139.7 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1735,16 +1813,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 156.21) (xy 134.62 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fa04360-74ab-4f0c-9a5f-1a35a5e7620b")
-	)
-	(wire
-		(pts
 			(xy 53.34 22.86) (xy 53.34 25.4)
 		)
 		(stroke
@@ -1755,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 91.44) (xy 149.86 93.98)
+			(xy 147.32 93.98) (xy 149.86 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1785,13 +1853,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 156.21) (xy 134.62 156.21)
+			(xy 149.86 91.44) (xy 162.56 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d233a64-6279-433e-acea-a144d11de03b")
+		(uuid "4e3c8f3c-bb8c-48f3-88ff-9af2f1ff8d55")
 	)
 	(wire
 		(pts
@@ -1835,6 +1903,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 96.52) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75885f99-d4d2-4251-9b50-9e50480968ce")
+	)
+	(wire
+		(pts
 			(xy 93.98 82.55) (xy 104.14 82.55)
 		)
 		(stroke
@@ -1865,16 +1943,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 152.4 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "862dd238-343f-4b15-8e38-55358055bd00")
-	)
-	(wire
-		(pts
 			(xy 50.8 33.02) (xy 53.34 33.02)
 		)
 		(stroke
@@ -1902,6 +1970,16 @@
 			(type default)
 		)
 		(uuid "a33ed937-24da-4345-ad72-dda11b9aa668")
+	)
+	(wire
+		(pts
+			(xy 127 134.62) (xy 139.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a367af28-864b-4367-b3b2-03e7f3b6ea18")
 	)
 	(wire
 		(pts
@@ -2015,6 +2093,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 33.02) (xy 99.06 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd0c5f9-2d04-49ad-8c93-1de712a032fc")
+	)
+	(wire
+		(pts
 			(xy 93.98 80.01) (xy 104.14 80.01)
 		)
 		(stroke
@@ -2063,6 +2151,56 @@
 		)
 		(uuid "284fe07b-091f-4683-bc65-f08049b061fa")
 	)
+	(label "STM8_SWIM"
+		(at 152.4 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3045579a-1582-485f-81ef-1a2f47c556f0")
+	)
+	(label "3V0_DCDC_EN"
+		(at 129.54 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cdd5381-498f-4d78-b2f9-da6649667da5")
+	)
+	(label "STM8_SWIM"
+		(at 129.54 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e6de718-1f51-4bc8-9eec-e5563d222b3a")
+	)
+	(label "STM8_SDA"
+		(at 129.54 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57549a54-26d6-4369-82fb-95858da31973")
+	)
+	(label "STM8_SCL"
+		(at 129.54 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "679bd08d-0f26-4ab6-a366-4f586c2546ba")
+	)
 	(label "USB_DM"
 		(at 93.98 82.55 0)
 		(effects
@@ -2072,6 +2210,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0e6b20b-2d74-498e-8f32-23d3557b7f4d")
+	)
+	(label "STM8_SDA"
+		(at 152.4 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b24dbde6-9499-4f86-8ae1-583a571f4b72")
 	)
 	(label "PI_RUN"
 		(at 93.98 96.52 0)
@@ -2084,7 +2232,7 @@
 		(uuid "da1c52d1-625f-4bd0-bc81-312d4444f0fb")
 	)
 	(label "PI_RUN"
-		(at 127 34.29 0)
+		(at 127 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2102,6 +2250,26 @@
 			(justify left bottom)
 		)
 		(uuid "e61e32bb-16c8-4f93-98e1-e90a0f1d0432")
+	)
+	(label "3V0_DCDC_EN"
+		(at 83.82 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4fba19b-6757-40ee-a25f-b6a3f72f87ee")
+	)
+	(label "STM8_SCL"
+		(at 152.4 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6f1109d-4382-4b92-9fd4-172793668417")
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
@@ -2192,7 +2360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBAT_3V3"
+		(property "Value" "VBAT_3V0"
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -2331,7 +2499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 39.37 40.64 0)
 			(effects
 				(font
@@ -2970,7 +3138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_GNSS"
+		(property "Value" "+3V0_GNSS"
 			(at 205.74 20.32 0)
 			(effects
 				(font
@@ -3036,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+V_BAT_3V3"
+		(property "Value" "+V_BAT_3V0"
 			(at 218.44 20.32 0)
 			(effects
 				(font
@@ -3300,7 +3468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_GNSS"
+		(property "Value" "+3V0_GNSS"
 			(at 228.6 20.32 0)
 			(effects
 				(font
@@ -3434,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_WSPR"
+		(property "Value" "+3V0_WSPR"
 			(at 193.04 20.32 0)
 			(effects
 				(font
@@ -3565,7 +3733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 152.4 27.94 0)
 			(effects
 				(font
@@ -3883,7 +4051,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3_WSPR_EN#" output
+		(pin "3V0_WSPR_EN#" output
 			(at 149.86 78.74 0)
 			(uuid "f2c5c3a3-8f95-433f-b121-48f2e5caf389")
 			(effects
@@ -3923,7 +4091,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3_GNSS_EN#" output
+		(pin "3V0_GNSS_EN#" output
 			(at 149.86 104.14 0)
 			(uuid "0c39355f-6d35-4a5b-96cf-b97e46454364")
 			(effects
@@ -3972,8 +4140,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 138.43)
-		(size 25.4 20.32)
+		(at 101.6 127)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3988,7 +4156,7 @@
 		)
 		(uuid "3a3d5b61-45b1-4ef1-a95a-f1f4d23f0d26")
 		(property "Sheetname" "alarm clock"
-			(at 106.68 137.7184 0)
+			(at 101.6 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +4165,7 @@
 			)
 		)
 		(property "Sheetfile" "alarm_clock.kicad_sch"
-			(at 106.68 159.3346 0)
+			(at 101.6 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4174,7 @@
 			)
 		)
 		(pin "STM8_SCL" input
-			(at 132.08 144.78 0)
+			(at 127 134.62 0)
 			(uuid "db8071c4-2d55-406a-94b9-785f4e5d87e5")
 			(effects
 				(font
@@ -4016,7 +4184,7 @@
 			)
 		)
 		(pin "STM8_SWIM" bidirectional
-			(at 132.08 142.24 0)
+			(at 127 132.08 0)
 			(uuid "65ac587d-aa13-45ee-9bbf-2de22f9ed725")
 			(effects
 				(font
@@ -4025,8 +4193,8 @@
 				(justify right)
 			)
 		)
-		(pin "3V3_DCDC_EN#" output
-			(at 132.08 156.21 0)
+		(pin "3V0_DCDC_EN#" output
+			(at 127 147.32 0)
 			(uuid "5b5b141c-689b-470f-ad40-249ec7b900a1")
 			(effects
 				(font
@@ -4036,7 +4204,7 @@
 			)
 		)
 		(pin "STM8_SDA" bidirectional
-			(at 132.08 147.32 0)
+			(at 127 137.16 0)
 			(uuid "7828083e-281e-46c0-9667-a6090d675e8d")
 			(effects
 				(font
@@ -4107,7 +4275,7 @@
 		)
 	)
 	(sheet
-		(at 99.06 27.94)
+		(at 99.06 25.4)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4122,8 +4290,8 @@
 			(color 255 255 160 1.0000)
 		)
 		(uuid "7a73f02a-b61b-4b6b-bed6-2d604871a648")
-		(property "Sheetname" "3V3 Buck"
-			(at 99.06 27.2284 0)
+		(property "Sheetname" "3V0 Buck"
+			(at 99.06 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,8 +4299,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "3v3_buck.kicad_sch"
-			(at 99.06 41.2246 0)
+		(property "Sheetfile" "3V0_buck.kicad_sch"
+			(at 99.06 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4309,7 @@
 			)
 		)
 		(pin "PI_RUN" output
-			(at 124.46 34.29 0)
+			(at 124.46 33.02 0)
 			(uuid "43e926ee-c71f-45e5-a80f-e95b95bdf64e")
 			(effects
 				(font
@@ -4150,8 +4318,8 @@
 				(justify right)
 			)
 		)
-		(pin "3V3_DCDC_EN" input
-			(at 99.06 34.29 180)
+		(pin "3V0_DCDC_EN" input
+			(at 99.06 33.02 180)
 			(uuid "a5639b5c-f9c6-40c6-99d3-ef346985a622")
 			(effects
 				(font
@@ -4232,7 +4400,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3_WSPR_EN#" input
+		(pin "3V0_WSPR_EN#" input
 			(at 189.23 71.12 180)
 			(uuid "e40c8ad3-491d-4edd-9395-3a522a62b021")
 			(effects
@@ -4406,7 +4574,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3_GNSS_EN#" input
+		(pin "3V0_GNSS_EN#" input
 			(at 189.23 109.22 180)
 			(uuid "72b22ff4-8477-4c5c-856b-8a0b6b6c13a8")
 			(effects

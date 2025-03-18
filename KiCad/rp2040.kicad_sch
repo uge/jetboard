@@ -5389,7 +5389,7 @@
 		)
 		(uuid "fc433c1c-e59c-433c-b404-2bfeaa9644e8")
 	)
-	(hierarchical_label "3V3_GNSS_EN#"
+	(hierarchical_label "3V0_GNSS_EN#"
 		(shape output)
 		(at 195.58 80.01 0)
 		(effects
@@ -5455,7 +5455,7 @@
 		)
 		(uuid "63eb10c2-7448-4158-9eb3-0bccb80ff492")
 	)
-	(hierarchical_label "3V3_WSPR_EN#"
+	(hierarchical_label "3V0_WSPR_EN#"
 		(shape output)
 		(at 195.58 148.59 0)
 		(effects
@@ -6297,7 +6297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 220.726 93.726 0)
 			(effects
 				(font
@@ -6843,7 +6843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 177.8 16.51 0)
 			(effects
 				(font
@@ -7187,7 +7187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -8604,7 +8604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 221.234 70.866 0)
 			(effects
 				(font

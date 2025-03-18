@@ -949,7 +949,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DC/DC buck converter generates 3.3V from \nbattery, solar, or USB VBUS"
+	(text "DC/DC buck converter generates 3.0V from \nbattery, solar, or USB VBUS"
 		(exclude_from_sim no)
 		(at 107.696 40.386 0)
 		(effects
@@ -1524,7 +1524,7 @@
 		)
 		(uuid "caa600c3-9bf5-4ee2-930c-94fadae7fe83")
 	)
-	(hierarchical_label "3V3_DCDC_EN"
+	(hierarchical_label "3V0_DCDC_EN"
 		(shape input)
 		(at 78.74 82.55 180)
 		(effects
@@ -1624,7 +1624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V0"
 			(at 146.05 38.1 0)
 			(effects
 				(font
@@ -1688,7 +1688,7 @@
 				)
 			)
 		)
-		(property "Value" "284.3k"
+		(property "Value" "221k"
 			(at 76.454 58.166 0)
 			(effects
 				(font
