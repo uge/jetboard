@@ -299,45 +299,46 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "2025-03-15_22-46-16:BAT-HLD-006-SMT"
+		(symbol "Connector:BC-2013"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at 7.62 8.89 0)
+			(property "Reference" "BT"
+				(at -6.3614 3.8138 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "BAT-HLD-006-SMT"
-				(at 7.62 5.08 0)
+			(property "Value" "BC-2013"
+				(at -6.3618 -6.3579 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BAT-HLD-006-SMT_LNX"
+			(property "Footprint" "BC-2013:BAT_BC-2013"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "BAT-HLD-006-SMT"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -351,39 +352,53 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "PARTREV" "D"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "BAT-HLD-006-SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "BAT-HLD-006-SMT_LNX"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "BAT-HLD-006-SMT_0_1"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.68mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "MPD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BC-2013_0_0"
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 -3.81)
+						(xy -3.302 2.032) (xy -2.286 2.032)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -392,10 +407,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 6.096 0)
+						(xy -2.794 2.54) (xy -2.794 1.524)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -404,43 +419,8 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 3.81 -2.54)
+						(xy -2.54 0) (xy -1.27 0)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 12.7 -3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.81 0)
-					(radius 0.127)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -451,10 +431,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.318 1.27) (xy 5.334 1.27)
+						(xy -1.27 2.54) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -463,10 +443,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.826 1.778) (xy 4.826 0.762)
+						(xy -1.27 0) (xy -1.27 -2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -475,10 +455,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.096 -1.778) (xy 6.096 1.778)
+						(xy 1.27 1.27) (xy 1.27 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -487,10 +467,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.112 0.762) (xy 7.112 -0.762)
+						(xy 1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -499,10 +479,10 @@
 				)
 				(polyline
 					(pts
-						(xy 8.128 -1.778) (xy 8.128 1.778)
+						(xy 1.27 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -511,114 +491,48 @@
 				)
 				(polyline
 					(pts
-						(xy 9.144 0.762) (xy 9.144 -0.762)
+						(xy 2.032 2.032) (xy 3.048 2.032)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 9.144 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.906 1.27) (xy 10.922 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -3.81) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "S1+"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "2"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "-"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1413,6 +1327,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Place NTC thermistor in contact with bat"
+		(exclude_from_sim no)
+		(at 150.368 139.446 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d36b76e8-bf75-4790-adde-09073bae68eb")
+	)
 	(text "Battery and Power Path"
 		(exclude_from_sim no)
 		(at 137.16 71.12 0)
@@ -1428,12 +1352,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "304efe80-ea15-4a4c-8b17-812534632a0d")
-	)
-	(junction
-		(at 208.28 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56dc444c-97e6-42eb-bf5a-afd68d3ea2c6")
 	)
 	(junction
 		(at 165.1 121.92)
@@ -1729,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 99.06) (xy 208.28 99.06)
+			(xy 180.34 99.06) (xy 210.82 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1799,16 +1717,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 101.6) (xy 208.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e35356b3-1309-4679-bd0a-6fbc8bec8088")
-	)
-	(wire
-		(pts
 			(xy 165.1 101.6) (xy 165.1 106.68)
 		)
 		(stroke
@@ -1836,16 +1744,6 @@
 			(type default)
 		)
 		(uuid "f7537f84-a528-42e7-b7f7-91ac7940174f")
-	)
-	(wire
-		(pts
-			(xy 208.28 99.06) (xy 210.82 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2556d3-fa2f-4939-9d3c-529bba7155b3")
 	)
 	(label "V_BAT"
 		(at 170.18 96.52 0)
@@ -2235,81 +2133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-03-15_22-46-16:BAT-HLD-006-SMT")
-		(at 210.82 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fad4ea9-0af9-4946-83f0-eb85b8ecfadb")
-		(property "Reference" "B1"
-			(at 214.63 107.9499 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT-HLD-006-SMT"
-			(at 214.63 110.4899 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JetBoard:BAT-HLD-006-SMT_LNX"
-			(at 210.82 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "BAT-HLD-006-SMT"
-			(at 210.82 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de469b9f-102f-468f-968a-8f37f289c7e0")
-		)
-		(pin "2"
-			(uuid "1f412417-5a78-4232-9ca4-9f1f86474a9b")
-		)
-		(pin "3"
-			(uuid "95c4b582-fa5c-4941-8f6e-309d9cccd91e")
-		)
-		(instances
-			(project ""
-				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/ac09af11-5794-40a5-ab3d-ac2e3f5d0ff8"
-					(reference "B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 185.42 106.68 0)
 		(unit 1)
@@ -2505,6 +2328,117 @@
 			(project "JetBoard"
 				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/ac09af11-5794-40a5-ab3d-ac2e3f5d0ff8"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:BC-2013")
+		(at 210.82 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebbc8917-70ef-4dd1-a6bf-948c649c3229")
+		(property "Reference" "BT1"
+			(at 214.63 107.8229 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC-2013"
+			(at 214.63 110.3629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JetBoard:BAT_BC-2013"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.68mm"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MPD"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "-"
+			(uuid "4fb71b65-d7cc-4e99-b466-f375e75624ba")
+		)
+		(pin "S1+"
+			(uuid "3d4a9a76-6211-4b03-a371-44d1494f60c0")
+		)
+		(instances
+			(project ""
+				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/ac09af11-5794-40a5-ab3d-ac2e3f5d0ff8"
+					(reference "BT1")
 					(unit 1)
 				)
 			)

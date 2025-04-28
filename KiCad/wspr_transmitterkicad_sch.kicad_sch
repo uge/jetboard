@@ -2095,7 +2095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_WSPR"
+		(property "Value" "+3.0V_WSPR"
 			(at 86.36 84.074 0)
 			(effects
 				(font
@@ -2866,7 +2866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_WSPR"
+		(property "Value" "+3.0V_WSPR"
 			(at 64.77 59.944 0)
 			(effects
 				(font

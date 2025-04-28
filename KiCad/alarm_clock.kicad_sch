@@ -5,6 +5,245 @@
 	(uuid "24211303-8db6-4d1a-8105-01900e22d842")
 	(paper "A5")
 	(lib_symbols
+		(symbol "2025-04-28_05-22-45:STM8L050J3M3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 38.1 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "STM8L050J3M3"
+				(at 38.1 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOD8N_4P9X6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "STM8L050J3M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "STM8L050J3M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOD8N_4P9X6 SOD8N_4P9X6-M SOD8N_4P9X6-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "STM8L050J3M3_0_1"
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 7.62)
+					(name "PB3/PB5/PD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "PB7/PC0/PC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "PC4/PC5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 39.37 -2.54 180)
+					(length 7.62)
+					(name "PA0/PA2/PC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 39.37 -5.08 180)
+					(length 7.62)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STM8L050J3M3_1_1"
+				(rectangle
+					(start 7.62 7.62)
+					(end 31.75 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 16.51 15.24 270)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -21.59 90)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -135,235 +374,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MCU_ST_STM8:STM8S001J3M"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 1.27 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "STM8S001J3M"
-				(at 1.27 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-				(at 1.27 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm8s001j3.pdf"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "16MHz, 8K Flash, 1K RAM, 128 EEPROM, SO-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "STM8 Microcontroller Value Line"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SO*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "STM8S001J3M_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "STM8S001J3M_1_1"
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "PB4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "PB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "VCAP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "PD6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "PD5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "PC5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -972,24 +982,8 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CHANGE ME TO STM8L050\n"
-		(exclude_from_sim no)
-		(at 172.72 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b03ccebb-1594-4417-a692-f259581ce6a0")
-	)
 	(junction
-		(at 147.32 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01d7d840-f803-480a-a539-473025d3cd01")
-	)
-	(junction
-		(at 147.32 52.07)
+		(at 148.59 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01ecf1b7-912c-4497-8cce-29a3fb1df072")
@@ -1005,6 +999,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b95e614-fd78-44e9-a979-c612eb6bcf9c")
+	)
+	(junction
+		(at 148.59 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f5e8584-18f5-4537-911a-e1fa5c72511d")
 	)
 	(junction
 		(at 69.85 67.31)
@@ -1025,14 +1025,14 @@
 		(uuid "abc8e9b5-0fec-4c06-b093-76ab4acc8a49")
 	)
 	(junction
-		(at 129.54 82.55)
+		(at 148.59 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "be987949-e121-4c87-aa08-dad5d36a61c2")
+		(uuid "d62a1180-b2cb-4946-a22c-a51ad897a52f")
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 129.54 82.55)
+			(xy 113.03 81.28) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1042,13 +1042,33 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 71.12) (xy 113.03 82.55)
+			(xy 113.03 71.12) (xy 113.03 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0670af10-dde9-4b4a-b7d7-5a5b93877fa6")
+	)
+	(wire
+		(pts
+			(xy 130.81 49.53) (xy 132.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074636bd-683d-462a-a084-5363e90efc31")
+	)
+	(wire
+		(pts
+			(xy 148.59 68.58) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff2c0f9-4dfa-49b1-a1bf-d6148f053ad9")
 	)
 	(wire
 		(pts
@@ -1072,26 +1092,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 64.77) (xy 137.16 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d9da78-43a8-4905-b503-eafb109f6d2d")
-	)
-	(wire
-		(pts
-			(xy 147.32 52.07) (xy 147.32 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1826ec83-ea33-4d91-9a12-5670bc16bce7")
-	)
-	(wire
-		(pts
 			(xy 82.55 63.5) (xy 82.55 67.31)
 		)
 		(stroke
@@ -1112,16 +1112,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 67.31) (xy 137.16 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c826f3-676a-49cd-824b-8901b93dfbb3")
-	)
-	(wire
-		(pts
 			(xy 57.15 52.07) (xy 57.15 50.8)
 		)
 		(stroke
@@ -1132,23 +1122,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 147.32 82.55)
+			(xy 148.59 81.28) (xy 148.59 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4698babe-9e91-41aa-a2e8-fe7b28dd5f32")
+		(uuid "4b4c3b14-029d-41ec-b603-2703a8a84434")
 	)
 	(wire
 		(pts
-			(xy 157.48 67.31) (xy 160.02 67.31)
+			(xy 171.45 49.53) (xy 176.53 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "550be347-6d1e-442e-b98a-46b47e54d14c")
+		(uuid "5809cfc4-90e8-4c3a-8337-ddfeb40e05e9")
 	)
 	(wire
 		(pts
@@ -1162,13 +1152,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 72.39) (xy 137.16 72.39)
+			(xy 130.81 52.07) (xy 132.08 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6873d975-012c-48a0-a2c6-2a8266098f8c")
+		(uuid "6031f270-de5e-4f86-a833-008021857b44")
+	)
+	(wire
+		(pts
+			(xy 130.81 46.99) (xy 132.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6454bc8e-503c-4e24-b73c-954edd330349")
 	)
 	(wire
 		(pts
@@ -1182,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 147.32 52.07)
+			(xy 148.59 21.59) (xy 148.59 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1202,6 +1202,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 22.86) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810df7ac-75a5-46ad-b3db-af72e9ff13c1")
+	)
+	(wire
+		(pts
 			(xy 57.15 59.69) (xy 57.15 54.61)
 		)
 		(stroke
@@ -1212,6 +1222,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 54.61) (xy 132.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9671bbfa-9007-41a9-9a6e-11316366fe1b")
+	)
+	(wire
+		(pts
 			(xy 80.01 52.07) (xy 82.55 52.07)
 		)
 		(stroke
@@ -1219,6 +1239,16 @@
 			(type default)
 		)
 		(uuid "97940885-cac2-43b8-bbc6-ee4f752c52d5")
+	)
+	(wire
+		(pts
+			(xy 148.59 22.86) (xy 148.59 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba2ebcc-b690-4b9b-b549-d53f0e3f158a")
 	)
 	(wire
 		(pts
@@ -1242,16 +1272,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 52.07) (xy 147.32 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb45f1e-c69f-477c-a148-736bfda68b7e")
-	)
-	(wire
-		(pts
 			(xy 59.69 54.61) (xy 57.15 54.61)
 		)
 		(stroke
@@ -1272,36 +1292,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 82.55) (xy 147.32 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6af4525-6c70-408c-ad3e-caffd2b15d0f")
-	)
-	(wire
-		(pts
-			(xy 129.54 74.93) (xy 129.54 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d032f86b-c5fd-4a91-a167-858ee4f3adf7")
-	)
-	(wire
-		(pts
-			(xy 157.48 69.85) (xy 160.02 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d32f58a6-95f6-43f2-8544-edc4a6b2ce36")
-	)
-	(wire
-		(pts
 			(xy 57.15 59.69) (xy 57.15 67.31)
 		)
 		(stroke
@@ -1312,13 +1302,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 80.01) (xy 129.54 82.55)
+			(xy 113.03 22.86) (xy 148.59 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da883307-175e-44e3-86fb-ca7b182954d3")
+		(uuid "d5a1e66f-e5ee-4415-8bfe-3b90d52cd01f")
 	)
 	(wire
 		(pts
@@ -1342,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 77.47) (xy 147.32 82.55)
+			(xy 148.59 67.31) (xy 148.59 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1360,41 +1350,20 @@
 		)
 		(uuid "f5102fa6-f21f-4a6e-8ff0-6622e902dc6e")
 	)
-	(wire
-		(pts
-			(xy 157.48 64.77) (xy 171.45 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f66e2678-c1db-4820-b09b-f3898822ac45")
-	)
-	(hierarchical_label "STM8_SDA"
-		(shape bidirectional)
-		(at 134.62 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35e4dc8f-255e-4bea-b118-f96827c1abf7")
-	)
-	(hierarchical_label "STM8_SCL"
+	(hierarchical_label "STM8_SPI_MOSI"
 		(shape input)
-		(at 134.62 67.31 180)
+		(at 130.81 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "424786c2-46f8-4044-9af5-50ad096dcd54")
+		(uuid "9da1d4f3-2899-4f78-8317-47ab7c6f8541")
 	)
-	(hierarchical_label "3V0_DCDC_EN#"
+	(hierarchical_label "3V0_DCDC_EN"
 		(shape output)
-		(at 160.02 69.85 0)
+		(at 176.53 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1403,16 +1372,38 @@
 		)
 		(uuid "a4b370d3-ff99-4736-8533-565b36dd2995")
 	)
-	(hierarchical_label "STM8_SWIM"
-		(shape bidirectional)
-		(at 160.02 67.31 0)
+	(hierarchical_label "STM8_SPI_CLK"
+		(shape input)
+		(at 130.81 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "dd407970-bddc-475c-8abc-80f00080c28f")
+		(uuid "ba4ddf00-873d-4079-9a93-03ad7043a5c4")
+	)
+	(hierarchical_label "STM8_SPI_MISO"
+		(shape output)
+		(at 130.81 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd964a28-b283-49a6-bbdb-fcbaee78b85f")
+	)
+	(hierarchical_label "STM8_UART_TX"
+		(shape output)
+		(at 130.81 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddc3db40-6c65-4b5c-ab21-140c7a640193")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -1482,7 +1473,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 147.32 50.8 0)
+		(at 148.59 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1491,7 +1482,7 @@
 		(fields_autoplaced yes)
 		(uuid "1821f637-0308-48de-a0ec-a77aa2320d6c")
 		(property "Reference" "#PWR071"
-			(at 147.32 54.61 0)
+			(at 148.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1491,7 @@
 			)
 		)
 		(property "Value" "V_BAT_3V0"
-			(at 147.32 45.72 0)
+			(at 148.59 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 50.8 0)
+			(at 148.59 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 50.8 0)
+			(at 148.59 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 147.32 50.8 0)
+			(at 148.59 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,95 +1684,6 @@
 			(project "JetBoard"
 				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/3a3d5b61-45b1-4ef1-a95a-f1f4d23f0d26"
 					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_ST_STM8:STM8S001J3M")
-		(at 147.32 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41323056-6000-4a93-b9a2-34b8a08a655d")
-		(property "Reference" "U10"
-			(at 149.4633 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STM8S050"
-			(at 149.4633 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 148.59 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm8s001j3.pdf"
-			(at 144.78 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "16MHz, 8K Flash, 1K RAM, 128 EEPROM, SO-8"
-			(at 147.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9912c1b0-8052-45fa-af2a-81561308dc92")
-		)
-		(pin "2"
-			(uuid "a66386cd-610e-4273-a526-4f45208eb4bd")
-		)
-		(pin "1"
-			(uuid "71e006ca-97ae-4d64-bdf6-8016b8a4804e")
-		)
-		(pin "8"
-			(uuid "466e5bfc-314d-4ba7-98a0-2f6978cf57a5")
-		)
-		(pin "7"
-			(uuid "43de451d-9f71-41c6-9561-07423ce823cc")
-		)
-		(pin "6"
-			(uuid "a581724b-efaf-4fc4-91cd-a3c6dfc76de5")
-		)
-		(pin "5"
-			(uuid "4b23d8ae-3b0d-41ef-87dd-8c0c670bb4c1")
-		)
-		(pin "3"
-			(uuid "363d28ab-005a-47cf-ab63-7cd49dd719e0")
-		)
-		(instances
-			(project "JetBoard"
-				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/3a3d5b61-45b1-4ef1-a95a-f1f4d23f0d26"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2065,35 +1967,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 129.54 77.47 0)
+		(lib_id "2025-04-28_05-22-45:STM8L050J3M3")
+		(at 132.08 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "96b1b7a9-1233-44c1-a265-3d43f455d347")
-		(property "Reference" "C26"
-			(at 132.08 76.2062 0)
+		(uuid "f121f904-d4ac-4bd0-9ace-ebc5be7fac3c")
+		(property "Reference" "U3"
+			(at 170.18 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "STM8L050J3M3"
+			(at 170.18 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOD8N_4P9X6"
+			(at 132.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "100nF"
-			(at 132.08 78.7462 0)
+		(property "Datasheet" "STM8L050J3M3"
+			(at 132.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 129.54 77.47 0)
+		(property "Description" ""
+			(at 132.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,34 +2021,34 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "47056ddc-9854-4094-862c-d0fdff6b412f")
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 129.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "3a216c92-5b01-4c0a-a997-69b0da7a5377")
+		)
+		(pin "7"
+			(uuid "4fa98db3-3143-447f-94ca-98e04c447037")
+		)
+		(pin "3"
+			(uuid "29b31811-338a-4a5f-a26e-cc97fb83eea6")
+		)
+		(pin "4"
+			(uuid "79df8172-a42a-44b9-a389-81b4e50517d6")
+		)
+		(pin "8"
+			(uuid "929a3e6a-30aa-4dae-bfda-66fb2b706048")
 		)
 		(pin "1"
-			(uuid "78d59a60-d331-464c-9642-c00f98f8069d")
+			(uuid "220a2f69-c4c7-487d-a459-ad64f8ba30d6")
 		)
 		(pin "2"
-			(uuid "8ff00dba-66cf-4efe-9bd0-e2c7b21977f7")
+			(uuid "ad7258de-7c49-4b2e-8078-34a7785e2eca")
 		)
 		(instances
-			(project "JetBoard"
+			(project ""
 				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/3a3d5b61-45b1-4ef1-a95a-f1f4d23f0d26"
-					(reference "C26")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2136,7 +2056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 83.82 0)
+		(at 148.59 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2145,7 +2065,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe589ac2-3479-47f7-b692-6382e7c7eecb")
 		(property "Reference" "#PWR048"
-			(at 147.32 90.17 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2074,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 88.9 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 83.82 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 83.82 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2100,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 83.82 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

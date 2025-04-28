@@ -1200,7 +1200,7 @@
 		)
 		(uuid "05a25c3f-5cf8-4c8b-bc98-92af4e549d8c")
 	)
-	(text "V_BAT_3V0 can feed (weakly) VBAT of the GNSS receiver\nthrough a 10k resistor. The current draw of VBAT is \nspecified to be 10 microamps (typ) so even a 1V drop\nfrom the 3.3V battery rail is sufficient to keep the\nGPS srams powered. "
+	(text "V_BAT_3V0 can feed (weakly) VBAT of the GNSS receiver\nthrough a 10k resistor. The current draw of VBAT is \nspecified to be 10 microamps (typ) so even a 1V drop\nfrom the 3.0V battery rail is sufficient to keep the\nGPS srams powered. "
 		(exclude_from_sim no)
 		(at 134.366 54.61 0)
 		(effects
@@ -1245,12 +1245,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b38e89b7-b5b0-42cc-996e-52a0fcfc4348")
-	)
-	(junction
-		(at 101.6 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcd341ff-ca8d-47f3-ba80-2713f8ce603f")
 	)
 	(junction
 		(at 134.62 73.66)
@@ -1676,13 +1670,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 78.74) (xy 106.68 78.74)
+			(xy 101.6 67.31) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed4cced4-86c9-45f6-b444-db1bee85984c")
+		(uuid "f19b3dd8-ce03-4e6a-b7a1-f7a1039a035c")
 	)
 	(wire
 		(pts
@@ -1726,7 +1720,7 @@
 	)
 	(hierarchical_label "GNSS_VBAT"
 		(shape input)
-		(at 106.68 78.74 0)
+		(at 105.41 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2559,72 +2553,6 @@
 			(project "JetBoard"
 				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/e040cb25-b3fd-4690-93cf-8fdaec7d4bd3"
 					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 101.6 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a56f300d-7cce-4663-8110-4a5f8c43ccb1")
-		(property "Reference" "#PWR072"
-			(at 101.6 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+V_BAT_3V0"
-			(at 101.6 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23291b3a-26cd-4761-8975-14e0176f2447")
-		)
-		(instances
-			(project "JetBoard"
-				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/e040cb25-b3fd-4690-93cf-8fdaec7d4bd3"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
