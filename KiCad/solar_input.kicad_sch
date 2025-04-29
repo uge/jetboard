@@ -775,7 +775,7 @@
 						(type outline)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "VIN"
@@ -793,7 +793,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
 					(name "EN"
@@ -811,7 +811,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "FB"
@@ -829,7 +829,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "VOUT"
@@ -865,7 +865,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -1136,9 +1136,19 @@
 		)
 		(uuid "1e9abdb3-6fe0-47c1-b3ba-357776cb4fe6")
 	)
-	(text "Solar input boost converter\n(0.5V to 5.5V) input\n(4.4V) output\n"
+	(text "Power switch gives priority to USB power if present"
 		(exclude_from_sim no)
-		(at 78.994 36.068 0)
+		(at 139.446 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2fdbae9-5c08-42df-b111-1aa916acc90d")
+	)
+	(text "Solar input boost converter\n(0.5V to 5.5V) input\n(4.4V) output\n4.4V output is a compromise between battery charging, boost losses, \ndecoupling energy storage."
+		(exclude_from_sim no)
+		(at 67.818 27.432 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1199,6 +1209,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb2e6a39-33c2-4944-ac97-9692253c1353")
+	)
+	(no_connect
+		(at 158.75 58.42)
+		(uuid "2f9720e9-9280-4e19-a5e7-a2ae9a2a634a")
 	)
 	(wire
 		(pts
@@ -1319,6 +1333,16 @@
 			(type default)
 		)
 		(uuid "3fac24a1-e6d3-4897-be1b-db5d45adc2c4")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433fdd15-9b14-499b-b6be-0a9d83ea57d0")
 	)
 	(wire
 		(pts
@@ -1561,6 +1585,99 @@
 		)
 		(uuid "e39dca67-5f62-4724-9382-be36b2e787d8")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 153.67 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6332cc28-2dca-4aef-843b-6dcdf52ef595")
+		(property "Netclass" "Power"
+			(at 154.3685 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -19.05 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 113.03 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfd41904-6c7d-49a0-9791-12228e3875c9")
+		(property "Netclass" "Power"
+			(at 113.7285 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 54.61 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f622dfd2-ca2a-4fc0-8f6a-daf7197cfbb4")
+		(property "Netclass" "Power"
+			(at 55.3085 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -118.11 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 129.54 43.18 0)
@@ -1771,7 +1888,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8966350e-1ff4-4656-9617-005b4da99055")
 		(property "Reference" "#PWR054"
 			(at 157.48 46.99 0)
@@ -1782,12 +1898,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_SYS"
-			(at 157.48 38.1 0)
+		(property "Value" "V_IN"
+			(at 157.226 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

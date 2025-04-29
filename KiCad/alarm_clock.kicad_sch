@@ -982,6 +982,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "STM8 runs directly off the battery if present and solar/USB power \nis absent\n"
+		(exclude_from_sim no)
+		(at 69.85 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51c4d48f-5dd5-4944-b6a7-24489f4255ef")
+	)
 	(junction
 		(at 148.59 22.86)
 		(diameter 0)
@@ -1024,11 +1034,9 @@
 		(color 0 0 0 0)
 		(uuid "abc8e9b5-0fec-4c06-b093-76ab4acc8a49")
 	)
-	(junction
-		(at 148.59 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d62a1180-b2cb-4946-a22c-a51ad897a52f")
+	(no_connect
+		(at 80.01 62.23)
+		(uuid "81eed439-9d35-4390-b201-a1a67b8d5b58")
 	)
 	(wire
 		(pts
@@ -1312,6 +1320,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 52.07) (xy 176.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a442c7-c49a-4016-9715-469561b8b6bd")
+	)
+	(wire
+		(pts
 			(xy 82.55 67.31) (xy 92.71 67.31)
 		)
 		(stroke
@@ -1332,16 +1350,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 67.31) (xy 148.59 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef63ba14-7ad7-46ac-89e5-055bade13acc")
-	)
-	(wire
-		(pts
 			(xy 59.69 52.07) (xy 57.15 52.07)
 		)
 		(stroke
@@ -1349,6 +1357,17 @@
 			(type default)
 		)
 		(uuid "f5102fa6-f21f-4a6e-8ff0-6622e902dc6e")
+	)
+	(hierarchical_label "CHARGE_EN#"
+		(shape output)
+		(at 176.53 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82f24b8d-3d47-4139-83f1-d0e6c9baaf40")
 	)
 	(hierarchical_label "STM8_SPI_MOSI"
 		(shape input)
