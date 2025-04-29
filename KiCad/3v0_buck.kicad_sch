@@ -544,7 +544,7 @@
 						(type outline)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 11.43 0 180)
 					(length 2.54)
 					(name "LX"
@@ -562,7 +562,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 11.43 -5.08 180)
 					(length 2.54)
 					(name "VOS"

@@ -9,8 +9,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
-				(at -1.4478 17.4879 0)
+			(property "Reference" "U16"
+				(at -1.27 14.732 0)
 				(effects
 					(font
 						(face "Arial")
@@ -20,7 +20,7 @@
 				)
 			)
 			(property "Value" "ATGM336H-5N31"
-				(at -1.4478 15.2273 0)
+				(at -9.398 -13.462 0)
 				(effects
 					(font
 						(face "Arial")
@@ -104,7 +104,7 @@
 						(type outline)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -16.51 10.16 0)
 					(length 2.54)
 					(name "GND"
@@ -122,7 +122,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -16.51 7.62 0)
 					(length 2.54)
 					(name "TXD"
@@ -140,7 +140,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -16.51 5.08 0)
 					(length 2.54)
 					(name "RXD"
@@ -158,7 +158,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -16.51 2.54 0)
 					(length 2.54)
 					(name "1PPS"
@@ -176,7 +176,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -16.51 0 0)
 					(length 2.54)
 					(name "ON/OFF"
@@ -194,7 +194,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -16.51 -2.54 0)
 					(length 2.54)
 					(name "VBAT"
@@ -212,7 +212,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -16.51 -5.08 0)
 					(length 2.54)
 					(name "NC"
@@ -230,7 +230,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -16.51 -7.62 0)
 					(length 2.54)
 					(name "VCC"
@@ -248,7 +248,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -16.51 -10.16 0)
 					(length 2.54)
 					(name "NRESET"
@@ -266,7 +266,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 16.51 10.16 180)
 					(length 2.54)
 					(name "Reserved"
@@ -284,7 +284,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 16.51 7.62 180)
 					(length 2.54)
 					(name "SCL"
@@ -302,7 +302,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 16.51 5.08 180)
 					(length 2.54)
 					(name "SDA"
@@ -320,7 +320,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 16.51 2.54 180)
 					(length 2.54)
 					(name "Reserved"
@@ -338,7 +338,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 16.51 0 180)
 					(length 2.54)
 					(name "VCC_RF"
@@ -356,7 +356,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 16.51 -2.54 180)
 					(length 2.54)
 					(name "NC"
@@ -374,7 +374,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 16.51 -5.08 180)
 					(length 2.54)
 					(name "GND"
@@ -392,7 +392,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 16.51 -7.62 180)
 					(length 2.54)
 					(name "RF_IN"
@@ -410,7 +410,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 16.51 -10.16 180)
 					(length 2.54)
 					(name "GND"
@@ -1179,6 +1179,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "TPS2116 used as a load switch\nEnables 3.0V suppy to GNSS when EN=0"
 		(exclude_from_sim no)
@@ -1211,6 +1312,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45f71679-23c3-45dc-95ef-dbaf0746f64f")
+	)
+	(junction
+		(at 97.79 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f47ebfd-1bef-4cdb-a901-ab2dfd0dd29a")
 	)
 	(junction
 		(at 80.01 73.66)
@@ -1302,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 78.74) (xy 101.6 78.74)
+			(xy 77.47 78.74) (xy 97.79 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1479,6 +1586,16 @@
 			(type default)
 		)
 		(uuid "768a321b-50ea-4372-91cd-839bbbf1848b")
+	)
+	(wire
+		(pts
+			(xy 97.79 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b07bfed-abdf-4c56-ad1b-3ea056d3784d")
 	)
 	(wire
 		(pts
@@ -2139,6 +2256,72 @@
 			(project "JetBoard"
 				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/e040cb25-b3fd-4690-93cf-8fdaec7d4bd3"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 97.79 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "825c3358-b3e2-4cbd-9cdf-6a09791ba11b")
+		(property "Reference" "#FLG06"
+			(at 97.79 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3746c35-c2da-4722-b748-20d6fc79ec26")
+		)
+		(instances
+			(project ""
+				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/e040cb25-b3fd-4690-93cf-8fdaec7d4bd3"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
