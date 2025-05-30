@@ -5,541 +5,6 @@
 	(uuid "5f14d9e9-a0c0-49d9-9aa6-1c1056acebb9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2025-03-10_01-20-10:BQ25185DLHR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U12"
-				(at -3.302 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "BQ25185DLHR"
-				(at -4.064 15.748 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "BQ25185:WSON10_DLH_TEX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "BQ25185DLHR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BQ25185DLHR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "WSON10_DLH_TEX WSON10_DLH_TEX-M WSON10_DLH_TEX-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BQ25185DLHR_0_1"
-				(pin input line
-					(at -19.05 5.08 0)
-					(length 7.62)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -19.05 2.54 0)
-					(length 7.62)
-					(name "/CE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -19.05 -2.54 0)
-					(length 7.62)
-					(name "STAT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -19.05 -5.08 0)
-					(length 7.62)
-					(name "STAT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -19.05 -10.16 0)
-					(length 7.62)
-					(name "ISET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -6.35 -22.86 90)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 -22.86 90)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 21.59 0 180)
-					(length 7.62)
-					(name "BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -5.08 180)
-					(length 7.62)
-					(name "ILIM/VSET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 21.59 -10.16 180)
-					(length 7.62)
-					(name "TS/MR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "BQ25185DLHR_1_1"
-				(rectangle
-					(start -11.43 12.7)
-					(end 13.97 -15.24)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-				(pin power_out line
-					(at 21.59 7.62 180)
-					(length 7.62)
-					(name "SYS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:BC-2013"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at -6.3614 3.8138 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "BC-2013"
-				(at -6.3618 -6.3579 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BC-2013:BAT_BC-2013"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.68mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "MPD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "BC-2013_0_0"
-				(polyline
-					(pts
-						(xy -3.302 2.032) (xy -2.286 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 2.54) (xy -2.794 1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 2.032) (xy 3.048 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S1+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1100,6 +565,300 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JetBoard:BQ25185DLHR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U12"
+				(at -3.302 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BQ25185DLHR"
+				(at -4.064 15.748 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "BQ25185:WSON10_DLH_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "BQ25185DLHR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BQ25185DLHR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "WSON10_DLH_TEX WSON10_DLH_TEX-M WSON10_DLH_TEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BQ25185DLHR_0_1"
+				(pin input line
+					(at -19.05 5.08 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 2.54 0)
+					(length 7.62)
+					(name "/CE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.05 -2.54 0)
+					(length 7.62)
+					(name "STAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.05 -5.08 0)
+					(length 7.62)
+					(name "STAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -10.16 0)
+					(length 7.62)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -6.35 -22.86 90)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -22.86 90)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 21.59 0 180)
+					(length 7.62)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -5.08 180)
+					(length 7.62)
+					(name "ILIM/VSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -10.16 180)
+					(length 7.62)
+					(name "TS/MR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BQ25185DLHR_1_1"
+				(rectangle
+					(start -11.43 12.7)
+					(end 13.97 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin power_out line
+					(at 21.59 7.62 180)
+					(length 7.62)
+					(name "SYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1465,12 +1224,6 @@
 		(uuid "304efe80-ea15-4a4c-8b17-812534632a0d")
 	)
 	(junction
-		(at 210.82 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49108f9f-da1e-4f19-9ab8-895ad92f27d2")
-	)
-	(junction
 		(at 165.1 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1506,12 +1259,6 @@
 		(color 0 0 0 0)
 		(uuid "c660e256-6005-47f4-8125-0074b39a68af")
 	)
-	(junction
-		(at 180.34 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2042921-1f18-4d77-b3eb-f687cf24988c")
-	)
 	(no_connect
 		(at 116.84 101.6)
 		(uuid "2f883f75-7413-4da3-a67d-9f63803b8f2b")
@@ -1542,7 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 119.38) (xy 180.34 121.92)
+			(xy 180.34 109.22) (xy 180.34 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1559,26 +1306,6 @@
 			(type default)
 		)
 		(uuid "0dfe678d-f32e-4527-a85e-03773ee5b152")
-	)
-	(wire
-		(pts
-			(xy 180.34 109.22) (xy 180.34 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18d06d2f-756f-447c-8e5f-98d30ec058ba")
-	)
-	(wire
-		(pts
-			(xy 210.82 99.06) (xy 210.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d328c77-f256-404a-b15f-7283b79942c8")
 	)
 	(wire
 		(pts
@@ -1659,16 +1386,6 @@
 			(type default)
 		)
 		(uuid "523c8ef1-a560-4152-a9ef-93717d7aef7b")
-	)
-	(wire
-		(pts
-			(xy 210.82 119.38) (xy 210.82 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63000334-999e-4842-a343-954ee6309cfd")
 	)
 	(wire
 		(pts
@@ -1862,16 +1579,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 119.38) (xy 210.82 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f631ed08-94f2-477d-8016-8906add9e78b")
-	)
-	(wire
-		(pts
 			(xy 157.48 96.52) (xy 180.34 96.52)
 		)
 		(stroke
@@ -1890,7 +1597,7 @@
 		)
 		(uuid "4bb4e5d6-a356-480b-8786-69b9e1807b82")
 	)
-	(hierarchical_label "CHARGE_EN#"
+	(hierarchical_label "~{CHARGE_EN}"
 		(shape input)
 		(at 93.98 93.98 180)
 		(effects
@@ -2000,7 +1707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-03-10_01-20-10:BQ25185DLHR")
+		(lib_id "JetBoard:BQ25185DLHR")
 		(at 135.89 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2010,7 +1717,7 @@
 		(fields_autoplaced yes)
 		(uuid "158ecbf4-45c7-486e-b452-83e4f36c67e0")
 		(property "Reference" "U12"
-			(at 132.588 78.74 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2018,7 +1725,7 @@
 			)
 		)
 		(property "Value" "BQ25185DLHR"
-			(at 131.826 80.772 0)
+			(at 137.16 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2560,117 +2267,6 @@
 			(project ""
 				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/ac09af11-5794-40a5-ab3d-ac2e3f5d0ff8"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:BC-2013")
-		(at 210.82 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebbc8917-70ef-4dd1-a6bf-948c649c3229")
-		(property "Reference" "BT1"
-			(at 214.63 107.8229 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC-2013"
-			(at 214.63 110.3629 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JetBoard:BAT_BC-2013"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "D"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.68mm"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MPD"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "-"
-			(uuid "4fb71b65-d7cc-4e99-b466-f375e75624ba")
-		)
-		(pin "S1+"
-			(uuid "3d4a9a76-6211-4b03-a371-44d1494f60c0")
-		)
-		(instances
-			(project ""
-				(path "/6338cb95-8536-41ae-a90a-0bf3cec19d9d/ac09af11-5794-40a5-ab3d-ac2e3f5d0ff8"
-					(reference "BT1")
 					(unit 1)
 				)
 			)

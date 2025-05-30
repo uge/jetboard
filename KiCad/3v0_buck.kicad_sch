@@ -445,7 +445,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RT5715GQW"
+		(symbol "JetBoard:RT5715GQW"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2254,7 +2254,7 @@
 		)
 	)
 	(symbol
-		(lib_id "RT5715GQW")
+		(lib_id "JetBoard:RT5715GQW")
 		(at 107.95 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
